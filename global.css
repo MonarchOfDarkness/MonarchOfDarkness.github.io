@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-jaldi: Jaldi;
+  --font-paytone-one: "Paytone One";
+  --font-krona-one: "Krona One";
+  --font-inherit: inherit;
+  --font-kodchasan: Kodchasan;
+
+  /* font sizes */
+  --font-size-77xl: 96px;
+  --font-size-66xl-9: 85.9px;
+  --font-size-xl: 20px;
+  --font-size-5xl: 24px;
+  --font-size-29xl: 48px;
+
+  /* Colors */
+  --color-black: #000;
+  --color-white: #fff;
+  --color-firebrick: #da4343;
+
+  /* Paddings */
+  --padding-13xl: 32px;
+
+  /* Border radiuses */
+  --br-61xl: 80px;
+}
