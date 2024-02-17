@@ -17,3 +17,16 @@ function fadeIn(element, duration) {
         if(opacity >= 1) clearInterval(fading);
     }, interval);
 }
+
+// Smooth scroll for navigation links
+document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
+// Potential to add more interactivity as needed
